@@ -1,0 +1,10 @@
+# Define the song lyrics as a string
+song = "Oh say can you see by the dawn's early light"
+
+# Iterate through each character in the song
+for letter in song:
+    # Convert the character to its ASCII value
+    ascii_value = ord(letter)
+    
+    # Print the ASCII value
+    print(ascii_value)
